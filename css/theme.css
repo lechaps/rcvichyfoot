@@ -14595,15 +14595,6 @@ h3 {
   font-family: 'Raleway', sans-serif;
   line-height: 40px;
 }
-.teamdonate-form .radio-wrap label.active {
-  color: #00afd8;
-}
-.teamdonate-form .radio-wrap label:before {
-  background: #00afd8;
-}
-.teamdonate-form .radio-wrap label:after {
-  background: #00afd8;
-}
 .donate-btn {
   background: #00afd8;
 }
@@ -14637,9 +14628,6 @@ h3 {
 }
 .tm-main-top {
   padding-top: 25px;
-}
-.teamdonate-form label:hover {
-  color: #00afd8;
 }
 .yellow-scheme {
   color: #ffc722 !important;
@@ -14978,9 +14966,6 @@ h3 {
   #logoText {
     display: none;
   }
-  .teamdonate-form .radio-wrap {
-    width: 320px;
-  }
   .va-latest-top:before {
     display: none;
   }
@@ -15060,6 +15045,7 @@ button {
   cursor: pointer;
 }
 #map {
+  z-index: 0;
   height: 500px;
   width: 65%;
   position: relative;
