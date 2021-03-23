@@ -1,0 +1,20 @@
+baseURL = "https://wwww.rcvichy.com/"
+languageCode = "fr-FR"
+defaultContentLanguage = "fr"
+title = "RC Vichy Football"
+theme = "RCVichy"
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[params]
+  description = "" # meta description
+  copyright = "&copy; 2021 www.rcvichy.com"
+
+[params.social]
+  facebook      = "https://www.facebook.com/"
+  email         = "info@rcvichy.com"
+  twitter       = "https://twitter.com/"
+  instagram     = "https://www.instagram.com/"
