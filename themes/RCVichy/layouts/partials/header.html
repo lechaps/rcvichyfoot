@@ -17,33 +17,33 @@
   <div style="height: 70px;" class="uk-sticky-placeholder">
     <nav style="margin: 0px;" class="tm-navbar uk-navbar" data-uk-sticky="">
       <div class="uk-container" id="containerNavTop">
-        <a class="tm-logo uk-float-left" href="index.html">
-          <img src="images/LogoRCV.png" alt="logo" title="logo">
+        <a class="tm-logo uk-float-left" href="{{ "." | relURL  }}">
+          <img src="{{ "images/LogoRCV.png" | relURL  }}" alt="logo" title="logo">
           <h1>RC<em>Vichy</em> Football</h1>
           <div id="logoText">
-            <p>Racing Club Vichy Football / Ligue d'Auvergne-Rhônes-Alpes - District de l'Allier</p>
+            <p>Racing Club Vichy Football / Ligue d'Auvergne-Rhônes-Alpes - District de l'Allier {{ .Section }}</p>
           </div>
         </a>
         <ul class="uk-navbar-nav uk-hidden-small">
-          <li class="uk-parent uk-active"><a href="index.html">Accueil</a></li>
-          <li><a href="manager.html">Dirigeants</a></li>
-          <li><a href="team.html">Équipes</a></li>
-          <li><a href="club-partenaire.html">Club Partenaire</a></li>
-          <li><a href="news.html">Actualités</a></li>
-          <li><a href="galery.html">Galerie</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li {{ if eq .Section "" }}class="uk-parent uk-active"{{ end }}       ><a href="{{ "." | relURL  }}">Accueil</a></li>
+          <li {{ if eq .Section "manager" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./manager" | relURL  }}">Dirigeants</a></li>
+          <li {{ if eq .Section "team" }}class="uk-parent uk-active"{{ end }}   ><a href="{{ "./team" | relURL  }}">Équipes</a></li>
+          <li {{ if eq .Section "partners" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./partners" | relURL  }}">Club Partenaire</a></li>
+          <li {{ if eq .Section "news" }}class="uk-parent uk-active"{{ end }}   ><a href="{{ "./news" | relURL  }}">Actualités</a></li>
+          <li {{ if eq .Section "gallery" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./gallery" | relURL  }}">Galerie</a></li>
+          <li {{ if eq .Section "contact" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./contact" | relURL  }}">Contact</a></li>
         </ul>
         <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
         <div id="offcanvas" class="uk-offcanvas">
           <div class="uk-offcanvas-bar">
             <ul class="uk-nav uk-nav-offcanvas">
-              <li class="uk-parent uk-active"><a href="index.html">Accueil</a></li>
-              <li><a href="manager.html">Dirigeants</a></li>
-              <li><a href="team.html">Équipes</a></li>
-              <li><a href="club-partenaire.html">Club Partenaire</a></li>
-              <li><a href="news.html">Actualités</a></li>
-              <li><a href="galery.html">Galerie</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li {{ if eq .Section "" }}class="uk-parent uk-active"{{ end }}       ><a href="{{ "." | relURL  }}">Accueil</a></li>
+              <li {{ if eq .Section "manager" }}class="uk-parent uk-active"{{ end }}><a href="./manager">Dirigeants</a></li>
+              <li {{ if eq .Section "team" }}class="uk-parent uk-active"{{ end }}   ><a href="{{ "./team" | relURL  }}">Équipes</a></li>
+              <li {{ if eq .Section "partners" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./partners" | relURL  }}">Club Partenaire</a></li>
+              <li {{ if eq .Section "news" }}class="uk-parent uk-active"{{ end }}   ><a href="{{ "./news" | relURL  }}">Actualités</a></li>
+              <li {{ if eq .Section "gallery" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./gallery" | relURL  }}">Galerie</a></li>
+              <li {{ if eq .Section "contact" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./contact" | relURL  }}">Contact</a></li>
             </ul>
           </div>
         </div>

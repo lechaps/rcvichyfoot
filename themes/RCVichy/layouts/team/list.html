@@ -1,0 +1,225 @@
+{{ define "main" }}
+  {{ partial "top.html" . }}
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="uk-container uk-container-center">
+    <div id="tm-middle" class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+      <div class="tm-main uk-width-medium-1-1 uk-row-first">
+        <main id="tm-content" class="tm-content">
+
+          <div class="uk-container uk-container-center tt-gallery-top">
+            <div class="uk-grid" data-uk-grid-match="">
+              <div class="uk-width-3-10 title">Compositions des équipes et effectifs</div>
+              <div class="uk-width-7-10 text">
+                <ul>
+                  <li>24 équipes dont 20 de jeunes, 2 séniors et 2 féminines</li>
+                  <li>360 licenciés dont 240 jeunes (dont 27 filles), et 28 féminines</li>
+                  <li>Parmi les jeunes : 98 émanent du foot d'initiation (6, 7, 8 et 9 ans)</li>
+                  <li>20 éducateurs</li>
+                  <li>4 arbitres</li>
+                  <li>48 dirigeants</li>
+                  <li>2 partenariats avec les sections sportives de :
+                    <ul>
+                      <li>Jules Ferry (1er cycle de 6ème à 3ème) - 40 élèves dont 2 filles</li>
+                      <li>Albert Londres (2ème cycle de seconde à terminale) - 30 élèves</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div style="height: 54px;" class="uk-sticky-placeholder">
+            <div style="margin: 0px;" class="button-group filter-button-group" data-uk-sticky="{top:70}">
+              <div class="uk-container uk-container-center">
+                <button class="active" data-filter="*">Tous</button>
+                <button class="" data-filter=".SENIOR">Équipe Seniors</button>
+                <button class="" data-filter=".JEUNE">Équipe jeunes</button>
+                <button class="" data-filter=".UNDER">Foot initiation</button>
+              </div>
+            </div>
+          </div>
+          <div class="uk-grid uk-grid-collapse grid" data-uk-grid-match="">
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item SENIOR ">
+              <div class="gallery-album">
+                <a href="{{ "images/gallery/Image1.jpg" | relURL  }}" data-uk-lightbox="{group:'my-group01'}" class="img-0"><img
+                    src="{{ "images/gallery/Image1.jpg" | relURL  }}" alt=""></a>
+                <a href="{{ "images/gallery/Image2.jpg" | relURL  }}" data-uk-lightbox="{group:'my-group01'}" class="img-1"><img
+                    src="{{ "images/gallery/Image2.jpg" | relURL  }}" alt=""></a>
+                <div class="titles">
+                  <div class="title">Sénior</div>
+                  <div class="sub-title">Féminine</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item SENIOR ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image3.jpg" data-uk-lightbox="{group:'my-group02'}" class="img-0"><img
+                    src="./images/gallery/Image3.jpg" alt=""></a>
+                <a href="./images/gallery/Image4.jpg" data-uk-lightbox="{group:'my-group02'}" class="img-1"><img
+                    src="./images/gallery/Image4.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">Sénior</div>
+                  <div class="sub-title">Équipe A</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item SENIOR ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image5.jpg" data-uk-lightbox="{group:'my-group03'}" class="img-0"><img
+                    src="./images/gallery/Image5.jpg" alt=""></a>
+                <a href="./images/gallery/Image6.jpg" data-uk-lightbox="{group:'my-group03'}" class="img-1"><img
+                    src="./images/gallery/Image6.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">Sénior</div>
+                  <div class="sub-title">Équipe B</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image7.jpg" data-uk-lightbox="{group:'my-group04'}" class="img-0"><img
+                    src="./images/gallery/Image7.jpg" alt=""></a>
+                <a href="./images/gallery/Image8.jpg" data-uk-lightbox="{group:'my-group04'}" class="img-1"><img
+                    src="./images/gallery/Image8.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U18</div>
+                  <div class="sub-title">Équipe A</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image9.jpg" data-uk-lightbox="{group:'my-group05'}" class="img-0"><img
+                    src="./images/gallery/Image9.jpg" alt=""></a>
+                <a href="./images/gallery/Image10.jpg" data-uk-lightbox="{group:'my-group05'}" class="img-1"><img
+                    src="./images/gallery/Image10.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U18</div>
+                  <div class="sub-title">Équipe B</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image11.jpg" data-uk-lightbox="{group:'my-group06'}" class="img-0"><img
+                    src="./images/gallery/Image11.jpg" alt=""></a>
+                <a href="./images/gallery/Image12.jpg" data-uk-lightbox="{group:'my-group06'}" class="img-1"><img
+                    src="./images/gallery/Image12.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U16</div>
+                  <div class="sub-title">Équipe A</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image13.jpg" data-uk-lightbox="{group:'my-group07'}" class="img-0"><img
+                    src="./images/gallery/Image13.jpg" alt=""></a>
+                <a href="./images/gallery/Image14.jpg" data-uk-lightbox="{group:'my-group07'}" class="img-1"><img
+                    src="./images/gallery/Image14.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U16</div>
+                  <div class="sub-title">Équipe B</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image15.jpg" data-uk-lightbox="{group:'my-group08'}" class="img-0"><img
+                    src="./images/gallery/Image15.jpg" alt=""></a>
+                <a href="./images/gallery/Image16.jpg" data-uk-lightbox="{group:'my-group08'}" class="img-1"><img
+                    src="./images/gallery/Image16.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U15</div>
+                  <div class="sub-title">Féminine</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image17.jpg" data-uk-lightbox="{group:'my-group09'}" class="img-0"><img
+                    src="./images/gallery/Image17.jpg" alt=""></a>
+                <a href="./images/gallery/Image18.jpg" data-uk-lightbox="{group:'my-group09'}" class="img-1"><img
+                    src="./images/gallery/Image18.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U15</div>
+                  <div class="sub-title">Équipe A</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/SliderImage2.jpg" data-uk-lightbox="{group:'my-group10'}" class="img-0"><img
+                    src="./images/SliderImage2.jpg" alt=""></a>
+                <a href="./images/gallery/Image18.jpg" data-uk-lightbox="{group:'my-group10'}" class="img-1"><img
+                    src="./images/gallery/Image18.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U15</div>
+                  <div class="sub-title">Équipe A</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image19.jpg" data-uk-lightbox="{group:'my-group11'}" class="img-0"><img
+                    src="./images/gallery/Image19.jpg" alt=""></a>
+                <a href="./images/gallery/Image20.jpg" data-uk-lightbox="{group:'my-group11'}" class="img-1"><img
+                    src="./images/gallery/Image20.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U14</div>
+                  <div class="sub-title">Équipe A</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item JEUNE ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image21.jpg" data-uk-lightbox="{group:'my-group12'}" class="img-0"><img
+                    src="./images/gallery/Image21.jpg" alt=""></a>
+                <a href="./images/gallery/Image22.jpg" data-uk-lightbox="{group:'my-group12'}" class="img-1"><img
+                    src="./images/gallery/Image22.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U13</div>
+                  <div class="sub-title">Équipe A</div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item UNDER">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image23.jpg" data-uk-lightbox="{group:'my-group13'}" class="img-0"><img
+                    src="./images/gallery/Image23.jpg" alt=""></a>
+                <a href="./images/gallery/Image24.jpg" data-uk-lightbox="{group:'my-group13'}" class="img-1"><img
+                    src="./images/gallery/Image24.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U10-U11</div>
+                  <div class="sub-title"></div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item UNDER ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image25.jpg" data-uk-lightbox="{group:'my-group14'}" class="img-0"><img
+                    src="./images/gallery/Image25.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U8-U9</div>
+                  <div class="sub-title"></div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item UNDER ">
+              <div class="gallery-album">
+                <a href="./images/gallery/Image26.jpg" data-uk-lightbox="{group:'my-group15'}" class="img-0"><img
+                    src="./images/gallery/Image26.jpg" alt=""></a>
+                <a href="./images/gallery/Image27.jpg" data-uk-lightbox="{group:'my-group15'}" class="img-1"><img
+                    src="./images/gallery/Image27.jpg" alt=""></a>
+                <div class="titles">
+                  <div class="title">U6-U7</div>
+                  <div class="sub-title"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+{{ end }}

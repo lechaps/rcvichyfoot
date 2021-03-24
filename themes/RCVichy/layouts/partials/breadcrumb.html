@@ -1,0 +1,7 @@
+<div class="uk-container uk-container-center alt">
+  <ul class="uk-breadcrumb">
+      <li><a href="{{ "." | relURL  }}">Accueil</a></li>
+      {{ if ne .CurrentSection.Page .Page }}<li><a href="{{ .Section | relURL  }}">{{ with .CurrentSection }} {{ .Title }} {{ end }}</a></li>{{ end }}
+      <li class="uk-active"><span>{{ .Title }}</span></li>
+  </ul>
+</div>

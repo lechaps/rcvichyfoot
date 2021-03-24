@@ -1,10 +1,14 @@
 +++
 date = "2021-01-01T17:30:22+00:00"
+weight = 1
 title = "Thierry Coutard"
-role = "co-président"
+role = "Co-président"
+photo = "images/EquipeLogo.png"
+fblink = "http://facebook.com/"
+inlink = "http://linkedin.com/"
 +++
 
 Cadre de la fonction publique territoriale en retraite.  
 Ancien entrainer du Clermont-Foot.  
 Technicient diplomé (brevet d'état).  
-Co-Président du secteur sportif.
+Co-Président en charge du secteur sportif.
