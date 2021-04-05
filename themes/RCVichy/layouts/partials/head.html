@@ -1,7 +1,17 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RCVichy Football</title>
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+
+<title>{{ .Site.Title }} - {{ .Title }}</title>
+
+{{ if .Description }}
+  <meta name="description" content="{{ .Description }}" />
+{{ else }}
+  <meta name="description" content="{{ .Site.Params.description }}" />
+{{ end }}
+
 <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
 <link href="{{ "images/LogoRCV.png" | relURL  }}" rel="shortcut icon" type="image/vnd.microsoft.icon">
 <link href="{{ "css/akslider.css" | relURL  }}" rel="stylesheet" type="text/css" />

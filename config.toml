@@ -10,7 +10,7 @@ theme = "RCVichy"
   page = ["HTML"]
 
 [params]
-  description = "" # meta description
+  description = "Le site officiel du Racing Club de Vichy de Football" # meta description
   copyright = "&copy; 2021 www.rcvichy.com"
 
 [params.social]
