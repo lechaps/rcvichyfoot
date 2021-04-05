@@ -1,0 +1,22 @@
+baseURL = "https://wwww.rcvichy.com/"
+languageCode = "fr-FR"
+defaultContentLanguage = "fr"
+title = "RC Vichy Football"
+theme = "RCVichy"
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[params]
+  description = "" # meta description
+  copyright = "&copy; 2021 www.rcvichy.com"
+
+[params.social]
+  email         = "info@rcvichy.com"
+  telephone     = "04 70 98 67 50"
+  adresse       = "Stade Louis DARRAGON, Bd de Lattre de Tassigny - 03200 VICHY"
+  facebook      = "https://fr-fr.facebook.com/RCVichyfootball/"
+  twitter       = "https://twitter.com/"
+  instagram     = "https://www.instagram.com/"

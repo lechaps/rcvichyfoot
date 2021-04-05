@@ -1,0 +1,41 @@
+{{ define "main" }}
+  {{ partial "top.html" . }}
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="uk-container uk-container-center">
+    <div id="tm-middle" class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+      <div class="tm-main uk-width-medium-1-1 uk-row-first">
+        <main id="tm-content" class="tm-content">
+          <div id="system-message-container"></div>
+          <div class="jshop productfull" id="comjshop">
+            <div class="uk-grid">
+              <div class="uk-width-medium-5-10 left">
+                <div class="jshop">
+                  <div class="image_middle">
+                    <span id="list_product_image_middle">
+                      <a style="display: inline;" data-uk-lightbox href="{{ .Params.photo | relURL  }}" title="{{ .Title }}">
+                        <img id="main_image_62" src="{{ .Params.photo | relURL  }}" alt="{{ .Title }}" title="{{ .Title }}">
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-medium-5-10 right">
+                <div class="product-descr-wrap">
+                  <h1>{{ .Title }}</h1>
+                  <div class="prod_price">
+                    <span id="block_price">{{ .Params.role }}</span>
+                  </div>
+                  <div class="jshop_prod_description">{{.Content}}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+
+
+{{ end }}

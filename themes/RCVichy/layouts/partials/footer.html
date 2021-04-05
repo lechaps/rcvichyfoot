@@ -1,0 +1,50 @@
+<div class="bottom-wrapper">
+  <div class="tm-bottom-f-box  ">
+      <div class="uk-container uk-container-center">
+          <section id="tm-bottom-f" class="tm-bottom-f uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
+              <div class="uk-width-1-1">
+                  <div class="uk-panel">
+                      <div class="footer-logo">
+                          <a href="/"><img src="images/LogoRCV.png" alt="">RC<span>Vichy</span> Football</a>
+                      </div>
+                      <div class="footer-socials">
+                          <div class="social-top">
+                              <a href="{{ .Site.Params.social.facebook }}" target="_blank"><span class="uk-icon-large uk-icon-hover uk-icon-facebook"></span></a>
+                              <a href="#"><span class="uk-icon-large uk-icon-hover uk-icon-instagram"></span></a>
+                          </div>
+                      </div>
+                      <div class="clear"></div>
+                      <p class="footer-about-text">
+                        Le Racing Club Vichy Football est une association loi 1901.   
+                      </p>
+                  </div>
+              </div>
+          </section>
+      </div>
+  </div>
+  <footer id="tm-footer" class="tm-footer">
+      <div class="uk-panel">
+          <div class="uk-container uk-container-center">
+              <div class="uk-grid">
+                  <div class="uk-width-1-1">
+                      <div class="footer-wrap">
+                          <div class="foot-menu-wrap">
+                              <ul class="nav menu">
+                                <li><a href="index.html">Accueil</a></li>
+                                <li><a href="manager.html">Dirigeants</a></li>
+                                <li><a href="team.html">Équipes</a></li>
+                                <li><a href="club-partenaire.html">Club Partenaire</a></li>
+                                <li><a href="news.html">Actualités</a></li>
+                                <li><a href="galery.html">Galerie</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                              </ul>
+                          </div>
+                          <div class="copyrights">{{ $.Site.Params.copyright | markdownify}} Tout droit réservés. </a></div>
+                          <div class="clear"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>

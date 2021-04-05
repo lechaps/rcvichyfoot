@@ -1,0 +1,111 @@
+{{ define "main" }}
+  {{ partial "top.html" . }}
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="tm-bottom-a-box  ">
+    <div class="uk-container uk-container-center">
+      <section id="tm-bottom-a" class="tm-bottom-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}"
+        data-uk-grid-margin="">
+
+        <div class="uk-width-1-1 uk-row-first">
+          <div class="uk-panel">
+            <div class="about-team-page-top-wrap">
+              <div class="uk-grid">
+                <div class="uk-width-large-5-10 uk-width-small-1-1 left-part">
+                  <div class="top-title">
+                    <h2><span>Notre Équipe</span></h2>
+                  </div>
+                  <p class="sub-title">Une nouvelle équipe dirigeante a été portée à la tête du RCV football au cours de
+                    la saison 2020/2012</p>
+                  <p>Cette équipe bénéficie de compétences très complémentaires, avec des techniciens reconnus dans le
+                    milieu du football, anciens joueurs du club, éducateurs, chef d'entreprises, experts-comptables,
+                    consutants économiques, etc...</p>
+                  <p>L'équipe dirigeante du RCV s'engage à renforcer progressivement les effectifs des équipes séniors au
+                    travers d'une action forte en direction des jeunes.
+                    Toutes les catégories de jeunes sont présentes au RCV, allant d'une école de football dynamique
+                    jusqu'aux 18 ans.
+                    De plus une animation spécifique, en relation avec les collèges et lycées du bassin Vichyssois sera
+                    renforcée par l'action régulière d'éducateurs engagés et diplomés.
+                  </p>
+                  <p>Enfin le RCV entend organiser des rencontres, sous différentes formes, entre nos jeunes, leurs
+                    parents et les entrepreneurs du territoire. Ce rapprochement aura pour but de mieux sensibiliser notre
+                    jeunesse et leurs familles aux nombreux métiers présents, et permettra aux entrepreneurs de détecter
+                    les emplois de demain.
+                    Le RCV souhaite, au travers de la pratique sportive, développer certaines valeurs telles que le
+                    respect, la rigueur, la tolérance, et peut-être ainsi faciliter l'orientation de nombreux jeunes.
+                    Merci à nos partenaires de nous accompagner dans notre mission.
+                  </p>
+                </div>
+                <div class="uk-width-large-5-10 uk-width-small-1-1">
+                  <div class="top-banner uk-cover-background uk-position-relative"
+                    style="height: 420px; background-image: url('{{ "images/about-team-banner.jpg" | relURL }}');">
+                    <img class="uk-invisible" src="{{ "images/about-team-banner.jpg" | relURL }}" alt="">
+                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle inner">
+                      <ul>
+                        <li><span class="mes-color">T</span>ransparence dans les décisions</li>
+                        <li><span class="mes-color">E</span>ngagement dans les actions</li>
+                        <li><span class="mes-color">A</span>nimation dans tous les secteurs</li>
+                        <li><span class="mes-color">M</span>aitrise des finances</li>
+                      </ul>
+                      <div class="name">Notre projet TEAM</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="tm-bottom-b-box tm-full-width  ">
+    <div class="uk-container uk-container-center">
+      <section id="tm-bottom-b" class="tm-bottom-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}"
+        data-uk-grid-margin="">
+        <div class="uk-width-1-1">
+          <div class="uk-panel">
+            <div class="our-team-main-wrap">
+              <div class="uk-container uk-container-center">
+                <div class="uk-grid" data-uk-grid-match="">
+                  <div class="uk-width-medium-8-10 uk-width-small-1-1 uk-push-1-10">
+                    <div class="our-team-wrap">
+                      <div class="our-team-title">
+                        <h3>Notre <span>équipe dirigeante</span></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  {{ range .Pages.ByWeight }}
+                    <div class=" uk-width-large-1-4 uk-width-medium-1-3 uk-width-small-1-2 player-item">
+                      <div class="player-article">
+                        <div class="wrapper">
+                          <div class="img-wrap">
+                            <div class="bio"><span><a href="{{ .Permalink }}">bio</a></span>
+                            </div>
+                            <a href="{{ .Permalink }}"><img src="{{ .Params.photo | relURL  }}" class="imgTeam"
+                                alt="{{ .Title }}" title="{{ .Title }}"></a>
+                            <ul class="socials">
+                              {{ with .Params.fblink }}<li class="facebook"><a href="{{ . }}" target="_blank"
+                                  rel="nofollow"></a></li>{{ end }}
+                              {{ with .Params.inlink }}<li class="linkedin"><a href="{{ . }}" target="_blank"
+                                  rel="nofollow"></a></li>{{ end }}
+                            </ul>
+                          </div>
+                          <div class="info">
+                            <div class="name">
+                              <h3><a href="{{ .Permalink }}">{{ .Title }} </a></h3>
+                            </div>
+                            <div class="position">{{ .Params.role }}</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {{ end }}
+
+                </div>
+              </div>
+            </div>
+      </section>
+    </div>
+  </div>
+{{ end }}

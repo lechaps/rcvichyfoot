@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "head.html" . }}
+    {{ block "private_head" . }}{{ end }}
+  </head>
+
+  <body class="tm-isblog">
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <div class="over-wrap">
+      {{ partial "header.html" . }}
+      {{ block "main" . }}{{ end }}
+    </div>
+
+    {{ partial "footer.html" . }}
+    {{ partial "script.html" . }}
+  </body>
+
+</html>
