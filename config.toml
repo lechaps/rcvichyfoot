@@ -3,6 +3,8 @@ languageCode = "fr-FR"
 defaultContentLanguage = "fr"
 title = "RC Vichy Football"
 theme = "RCVichy"
+disableKinds= ['taxonomy']
+ignoreErrors = ["error-disable-taxonomy"]
 
 [outputs]
   home = ["HTML"]
@@ -10,11 +12,26 @@ theme = "RCVichy"
   page = ["HTML"]
 
 [params]
-  description = "Le site officiel du Racing Club de Vichy de Football" # meta description
+  description = "Le Racing Club Vichy Football est, à l’origine, l’une des sections du club omnisports du Racing club de Vichy. Le 22 mars 1951, le RCV football devient indépendant du RCV omnisports. Son premier président est Pierre Coulon, maire de Vichy. Le RCV football est champion d’Auvergne en 1999 et joue actuellement Régional 1 (6e division)" # meta description
+  keywords = "football, vichy, partenaires, foot, régional, jeunes, club"
   copyright = "&copy; 2021 www.rcvichy.com"
 
+# Contact page
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+email = "contact@rcvichy.com"
+contact = "https://formspree.io/f/xknknryw"
+
 [params.social]
-  email         = "info@rcvichy.com"
+  email         = "contact@rcvichy.com"
   telephone     = "04 70 98 67 50"
   adresse       = "Stade Louis DARRAGON, Bd de Lattre de Tassigny - 03200 VICHY"
   facebook      = "https://fr-fr.facebook.com/RCVichyfootball/"

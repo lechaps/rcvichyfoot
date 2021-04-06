@@ -2,120 +2,38 @@
   {{ partial "top.html" . }}
   {{ partial "breadcrumb.html" . }}
 
-  <div class="tm-top-g-box tm-full-width  ">
-    <div class="uk-container uk-container-center">
-      <section id="tm-top-g" class="tm-top-g uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
-        <div class="uk-width-1-1">
-          <div class="uk-panel">
-            <div class="uk-sticky-placeholder">
-              <div style="margin: 0px;" class="button-group filter-button-group" data-uk-sticky="{top:70, boundary: true}">
-                <div class="uk-container uk-container-center">
-                  <button class="active" data-filter="*">Tout</button>
-                  <button data-filter=".PARTENAIRE">Soirée Partenaire</button>
-                  <button data-filter=".MATCH">Photo de match</button>
-                  <button data-filter=".DIRIGEANT">équipes en formation et préformation -18ans</button>
-                </div>
-              </div>
-            </div>
-            <div id="boundary">
-              <div class="uk-grid uk-grid-collapse grid" data-uk-grid-match="">
-                <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item PARTENAIRE ">
-                  <div class="gallery-album">
-                    <a href="{{ " images/gallery/Image1.jpg" | relURL }}" data-uk-lightbox="{group:'my-group0'}"
-                      class="img-0">
-                      <img src="{{ " images/gallery/Image1.jpg" | relURL }}" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 1</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item DIRIGEANT ">
-                  <div class="gallery-album">
-                    <a href="{{ " images/gallery/Image2.jpg" | relURL }}" data-uk-lightbox="{group:'my-group1'}"
-                      class="img-0">
-                      <img src="{{ " images/gallery/Image2.jpg" | relURL }}" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 2</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item MATCH ">
-                  <div class="gallery-album">
-                    <a href="images/gallery/Image3.jpg" data-uk-lightbox="{group:'my-group2'}" class="img-0">
-                      <img src="images/gallery/Image3.jpg" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 3</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item DIRIGEANT ">
-                  <div class="gallery-album">
-                    <a href="images/gallery/Image4.jpg" data-uk-lightbox="{group:'my-group3'}" class="img-0">
-                      <img src="images/gallery/Image4.jpg" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 4</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item MATCH ">
-                  <div class="gallery-album">
-                    <a href="images/gallery/Image5.jpg" data-uk-lightbox="{group:'my-group4'}" class="img-0">
-                      <img src="images/gallery/Image5.jpg" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 5</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item DIRIGEANT ">
-                  <div class="gallery-album">
-                    <a href="images/gallery/Image6.jpg" data-uk-lightbox="{group:'my-group5'}" class="img-0">
-                      <img src="images/gallery/Image6.jpg" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 6</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item PARTENAIRE ">
-                  <div class="gallery-album">
-                    <a href="images/gallery/Image10.jpg" data-uk-lightbox="{group:'my-group6'}" class="img-0">
-                      <img src="images/gallery/Image10.jpg" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 7</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item PARTENAIRE ">
-                  <div class="gallery-album">
-                    <a href="images/gallery/Image13.jpg" data-uk-lightbox="{group:'my-group7'}" class="img-0">
-                      <img src="images/gallery/Image13.jpg" alt="">
-                    </a>
-                    <div class="titles">
-                      <div class="title">Image 8</div>
-                      <div class="sub-title">Football</div>
-                    </div>
-                  </div>
-                </div>
+  <div class="uk-container uk-container-center">
+    <div id="tm-middle" class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+      <div class="tm-main uk-width-medium-1-1 uk-row-first">
+        <main id="tm-content" class="tm-content">
+          <div style="height: 54px;" class="uk-sticky-placeholder">
+            <div style="margin: 0px;" class="button-group filter-button-group" data-uk-sticky="{top:70}">
+              <div class="uk-container uk-container-center">
+                <button class="active" data-filter="*">Tous</button>
+                <button class="" data-filter=".PARTENAIRE">Soirée Partenaire</button>
+                <button class="" data-filter=".MATCH">Sportif</button>
+                <button class="" data-filter=".ANIMATION">Foot animation</button>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+          <div class="uk-grid uk-grid-collapse grid" data-uk-grid-match="">
+            {{ range $num, $page := .Pages.ByWeight }}
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item {{ .Params.category }} ">
+              <div class="gallery-album">
+                {{ range $index, $link := .Params.photo }}
+                <a href="{{ $link | relURL  }}" data-uk-lightbox="{group:'my-group0{{$num}}'}" class="img-{{ $index }}">
+                  <img src="{{ $link | relURL  }}" alt=""></a>
+                {{ end }}
+                <div class="titles">
+                  <div class="title">Sénior</div>
+                  <div class="sub-title">Féminine</div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </main>
+      </div>
     </div>
   </div>
 {{ end }}

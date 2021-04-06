@@ -4,7 +4,7 @@
 <meta name="robots" content="all,follow">
 <meta name="googlebot" content="index,follow,snippet,archive">
 
-<title>{{ .Site.Title }} - {{ .Title }}</title>
+<meta name="author" content="RCVICHY">
 
 {{ if .Description }}
   <meta name="description" content="{{ .Description }}" />
@@ -12,6 +12,15 @@
   <meta name="description" content="{{ .Site.Params.description }}" />
 {{ end }}
 
+<meta name="keywords" content="{{ .Site.Params.keywords }}">
+<meta name="robots" content="index, follow">
+<meta name="ICBM" content="46.1344 , 3.4144">
+<meta property="og:title" content="{{ .Site.Params.description }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.rcvichy.com/">
+<meta property="og:image" content="https://www.rcvichy.com/images/LogoRCV.png">
+
+<title>{{ .Site.Title }} - {{ .Title }}</title>
 <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
 <link href="{{ "images/LogoRCV.png" | relURL  }}" rel="shortcut icon" type="image/vnd.microsoft.icon">
 <link href="{{ "css/akslider.css" | relURL  }}" rel="stylesheet" type="text/css" />

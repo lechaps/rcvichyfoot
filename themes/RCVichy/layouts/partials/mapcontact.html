@@ -26,41 +26,35 @@
                           <div class="aiContactSafe" id="aiContactSafe_mainbody_1">
                             <div class="contentpaneopen">
                               <div id="aiContactSafeForm">
-                                <form method="post" id="adminForm_1" name="adminForm_1">
+                                <form method="post" id="adminForm_1" name="adminForm_1" action="{{ .Site.Params.Contact }}" >
                                   <div id="displayAiContactSafeForm_1">
                                     <div class="aiContactSafe" id="aiContactSafe_contact_form">
                                       <div class="aiContactSafe" id="aiContactSafe_info"></div>
                                       <div class="aiContactSafe_row" id="aiContactSafe_row_aics_name">
                                         <div class="aiContactSafe_contact_form_field_label_left">
-                                          <span class="aiContactSafe_label" id="aiContactSafe_label_aics_name">
-                                            <label for="aics_name">Nom</label>
-                                          </span>&nbsp;
+                                          <span class="aiContactSafe_label" id="aiContactSafe_label_aics_name"><label for="nom">Nom</label></span>&nbsp;
                                           <label class="required_field">*</label>
                                         </div>
                                         <div class="aiContactSafe_contact_form_field_right">
-                                          <input name="aics_name" id="aics_name" class="textbox" placeholder="Nom" value="" type="text">
+                                          <input name="nom" id="nom" class="textbox" placeholder="Nom" value="" type="text" required>
                                         </div>
                                       </div>
                                       <div class="aiContactSafe_row" id="aiContactSafe_row_aics_email">
                                         <div class="aiContactSafe_contact_form_field_label_left">
-                                          <span class="aiContactSafe_label" id="aiContactSafe_label_aics_email">
-                                            <label for="aics_email">E-mail</label>
-                                          </span>&nbsp;
+                                          <span class="aiContactSafe_label" id="aiContactSafe_label_aics_email"><label for="email">E-mail</label></span>&nbsp;
                                           <label class="required_field">*</label>
                                         </div>
                                         <div class="aiContactSafe_contact_form_field_right">
-                                          <input name="aics_email" id="aics_email" class="email" placeholder="Email" value="" type="text">
+                                          <input name="email" id="email" class="email" placeholder="Email" value="" type="text" required>
                                         </div>
                                       </div>
                                       <div class="aiContactSafe_row" id="aiContactSafe_row_aics_message">
                                         <div class="aiContactSafe_contact_form_field_label_left">
-                                          <span class="aiContactSafe_label" id="aiContactSafe_label_aics_message">
-                                            <label for="aics_message">Message</label>
-                                          </span>&nbsp;<label class="required_field">*</label>
+                                          <span class="aiContactSafe_label" id="aiContactSafe_label_aics_message"><label for="message">Message</label></span>&nbsp;
+                                          <label class="required_field">*</label>
                                         </div>
                                         <div class="aiContactSafe_contact_form_field_right">
-                                          <textarea name="aics_message" id="aics_message" cols="40" rows="10"
-                                            class="editbox" placeholder="Message"></textarea>
+                                          <textarea name="message" id="message" cols="40" rows="10" class="editbox" placeholder="Message" required></textarea>
                                         </div>
                                       </div>
                                     </div>
