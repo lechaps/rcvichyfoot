@@ -11718,7 +11718,7 @@ q {
 .list-article {
   margin-bottom: 40px;
   position: relative;
-  min-height: 477px;
+  /*min-height: 477px;*/
 }
 .list-article .wrapper {
   flex: 1;

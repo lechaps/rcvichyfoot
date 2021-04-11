@@ -9,31 +9,37 @@
           <div class="contentpaneopen">
             <article>
               <div class="clearfix"></div>
-                <div class="article-slider">
-                  {{ if .Params.diaporama  }}
-                    <div id="carusel-11-30" class="uk-slidenav-position" data-uk-slideshow="{ height : 510 }">
-                      <ul class="uk-slideshow">
-                        {{ range $index, $link := .Params.diaporama }}
-                          <li>
-                            <div style="background-image: url('{{ $link | relURL  }}');" class="uk-cover-background uk-position-cover"></div>
-                            <img style="width: 100%; height: auto; opacity: 0;" src="{{ $link | relURL  }}" alt="">
-                          </li>
-                        {{ end }}
-                      </ul>
+              <div class="article-slider">
+                {{ if .Params.diaporama }}
+                  <div id="carusel-11-30" class="uk-slidenav-position" data-uk-slideshow="{ height : 510 }">
+                    <ul class="uk-slideshow">
+                      {{ range $index, $link := .Params.diaporama }}
+                        <li>
+                          <div style="background-image: url('{{ $link | relURL  }}');"
+                            class="uk-cover-background uk-position-cover"></div>
+                          <img style="width: 100%; height: auto; opacity: 0;" src="{{ $link | relURL  }}" alt="">
+                        </li>
+                      {{ end }}
+                    </ul>
+                    {{ if le 2 .Params.diaporama }}
                       <div class="article-slider-btn">
                         <a href="/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous"
                           data-uk-slideshow-item="previous"></a>
                         <a href="/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next"
                           data-uk-slideshow-item="next"></a>
                       </div>
-                    </div>
-                  {{ end }}
-                </div>
-                <div class="article-param">
-                  <div class="date">
-                    <i class="uk-icon-calendar"></i>
-                    {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                    {{ end }}
                   </div>
+                {{ end }}
+              </div>
+              <div class="article-param">
+                <div class="date">
+                  <i class="uk-icon-calendar"></i>
+                  {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                </div>
+                <div class="author">
+                  {{ .Title }}
+                </div>
               </div>
               <div class="article-single-text">{{ .Content }}</div>
               <div class="share-wrap">
@@ -41,12 +47,16 @@
                 <div>
                   <span class="b-share">
                     {{ if (ne .Params.facebook "") }}
-                      <a rel="nofollow" target="_blank" title="Facebook" class="b-share__handle b-share__link b-share-btn__facebook" href="{{ .Params.facebook }}" data-service="facebook">
+                      <a rel="nofollow" target="_blank" title="Facebook"
+                        class="b-share__handle b-share__link b-share-btn__facebook" href="{{ .Params.facebook }}"
+                        data-service="facebook">
                         <span class="b-share-icon b-share-icon_facebook"></span>
                       </a>
                     {{ end }}
                     {{ if (ne .Params.instagram "") }}
-                      <a rel="nofollow" target="_blank" title="Instagram" class="b-share__handle b-share__link b-share-btn__instagram" href="{{ .Params.instagram }}" data-service="twitter">
+                      <a rel="nofollow" target="_blank" title="Instagram"
+                        class="b-share__handle b-share__link b-share-btn__instagram" href="{{ .Params.instagram }}"
+                        data-service="twitter">
                         <span class="b-share-icon b-share-icon_instagram"></span>
                       </a>
                     {{ end }}
@@ -72,7 +82,6 @@
                 {{ end }}
               </div>
             </div>
-            <!--
             <h3 class="other-post-title">Autres <span>Articles</span></h3>
             <div class="uk-grid" data-uk-grid-match="">
               {{ range .Site.RegularPages.Related . | first 3}}
@@ -93,7 +102,6 @@
                 </div>
               {{ end }}
             </div>
-            -->
           </div>
         </main>
       </div>
@@ -107,7 +115,8 @@
                   <a href="{{ .Permalink }}"><img src="{{ .Params.image | relURL }}" class="img-polaroid" alt=""></a>
                 </div>
                 <div class="info">
-                  <div class="date">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
+                  <div class="date">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                  </div>
                   <div class="name">
                     <h4>
                       <a href="{{ .Permalink }}">{{ .Title }}</a>

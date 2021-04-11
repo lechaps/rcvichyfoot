@@ -17,13 +17,13 @@
                     <div class="info uk-flex-wrap-middle">
                       <div class="date">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
                       <div class="name"><h4><a href="{{ .Permalink  }}">{{ .Title }}</a></h4></div>
-                      <div class="text"><p>{{ .Summary }}</p></div>
+                      <div class="text"><p>{{ .Summary }}...<a href="{{ .Permalink  }}">Lire la suite</a></p></div>
                     </div>
                   </div>
                   <div class="article-actions uk-flex-wrap-bottom">
                     <div class="count">
-                      {{ if (ne .Params.facebook "") }}   <a href="{{ .Params.facebook }}"  target="_blank"><i class="uk-icon-facebook" ></i></a> {{ end }}&nbsp;
-                      {{ if (ne .Params.instagram "") }}  <a href="{{ .Params.instagram }}" target="_blank"><i class="uk-icon-instagram"></i></a> {{ end }}
+                      {{ if (ne .Params.facebook "") }}  <a href="{{ .Params.facebook }}"  target="_blank"><i class="uk-icon-facebook" ></i></a> {{ end }}&nbsp;
+                      {{ if (ne .Params.instagram "") }} <a href="{{ .Params.instagram }}" target="_blank"><i class="uk-icon-instagram"></i></a> {{ end }}
                     </div>
                     <div class="read-more"><a href="{{ .Permalink  }}">Lire</a></div>
                   </div>

@@ -9,5 +9,5 @@ inlink = "http://linkedin.com/"
 +++
 
 Chef d'entreprises.  
-éducateur jeunes.  
+Éducateur jeunes.  
 Ancien président du club d'Abrest.

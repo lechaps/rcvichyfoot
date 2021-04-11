@@ -11,25 +11,29 @@
               <div class="uk-container uk-container-center">
                 <button class="active" data-filter="*">Tous</button>
                 <button class="" data-filter=".PARTENAIRE">Soirée Partenaire</button>
-                <button class="" data-filter=".MATCH">Sportif</button>
-                <button class="" data-filter=".ANIMATION">Foot animation</button>
+                <button class="" data-filter=".DIRIGEANT">Foot animation</button>
+                <button class="" data-filter=".EDUCATEUR">Éducateurs</button>
+                <button class="" data-filter=".ARBITRE">Foot animation</button>
+                <button class="" data-filter=".JOUEUR">Sportif</button>
               </div>
             </div>
           </div>
           <div class="uk-grid uk-grid-collapse grid" data-uk-grid-match="">
             {{ range $num, $page := .Pages.ByWeight }}
-            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item {{ .Params.category }} ">
-              <div class="gallery-album">
-                {{ range $index, $link := .Params.photo }}
-                <a href="{{ $link | relURL  }}" data-uk-lightbox="{group:'my-group0{{$num}}'}" class="img-{{ $index }}">
-                  <img src="{{ $link | relURL  }}" alt=""></a>
-                {{ end }}
-                <div class="titles">
-                  <div class="title">Sénior</div>
-                  <div class="sub-title">Féminine</div>
+              <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item {{ .Params.category }} ">
+                <div class="gallery-album">
+                  {{ range $index, $link := .Params.photo }}
+                    <a href="{{ $link | relURL  }}" data-uk-lightbox="{group:'my-group0{{$num}}'}" class="img-{{ $index }}">
+                      <img src="{{ $link | relURL  }}" alt="">
+                    </a>
+                  {{ end }}
+                  <div class="titles">
+                    <div class="title">{{ .Title}}</div>
+                    <div class="sub-title">{{ len .Params.photo }}  {{if eq 1 (len .Params.photo) }}photo {{ else }} photos {{ end}}</div>
+                    <div class="sub-title">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
+                  </div>
                 </div>
               </div>
-            </div>
             {{ end }}
           </div>
         </main>

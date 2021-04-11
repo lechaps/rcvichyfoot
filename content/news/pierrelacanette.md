@@ -7,7 +7,7 @@ instagram = ""
 diaporama = ["https://images.rcvichy.com/news/pierrelacanette.jpg"]
 +++
 
-Un vrai plaisir de retrouver ce jour au siège du club, **Pierre Lacanette** - ancien excellent gardien du RCV -.  
+Un vrai plaisir de retrouver ce jour au siège du club, **Pierre Lacanette**, ancien excellent gardien du RCV.  
 Après rencontre avec **Thierry Coutard** et **Laurent Guillaume**, Pierre a donné son accord pour venir renforcer le secteur des entrainements "spécifiques gardiens", et ce dès mercredi prochain auprès des gardiens des U14 aux U18.  
 Le club renforce son encadrement technique auprès des jeunes joueurs, un axe prioritaire pour la nouvelle équipe dirigeante.  
 Bienvenue à Pierre !

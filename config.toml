@@ -5,6 +5,7 @@ title = "RC Vichy Football"
 theme = "RCVichy"
 disableKinds= ['taxonomy']
 ignoreErrors = ["error-disable-taxonomy"]
+summaryLength = 5
 
 [outputs]
   home = ["HTML"]
