@@ -3,9 +3,9 @@ date = "2021-01-01T17:30:22+00:00"
 weight = 8
 title = "Jean-Jacques Chapuis"
 role = "Trésorier"
-photo = "https://images.rcvichy.com/head/default.png"
-fblink = "http://facebook.com/"
-inlink = "http://linkedin.com/"
+photo = "https://images.rcvichy.com/manager/jean-jacques-chapuis.png"
+fblink = ""
+inlink = ""
 +++
 
 Cadre de l'industrie de l'agroalimentaire.  

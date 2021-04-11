@@ -3,9 +3,9 @@ date = "2021-01-01T17:30:22+00:00"
 weight = 1
 title = "Thierry Coutard"
 role = "Co-président"
-photo = "https://images.rcvichy.com/head/default.png"
-fblink = "http://facebook.com/"
-inlink = "http://linkedin.com/"
+photo = "https://images.rcvichy.com/manager/thierry-coutard.png"
+fblink = "https://www.facebook.com/profile.php?id=100062170576450"
+inlink = "https://www.linkedin.com/in/thierry-coutard-b45b53178/"
 +++
 
 Cadre de la fonction publique territoriale en retraite.  

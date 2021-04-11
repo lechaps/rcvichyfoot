@@ -1,6 +1,6 @@
 +++
 date = "2021-04-02T00:00:00+05:30"
-title = "ACM devient partenaire du RC Vichy Footbal"
+title = "ACM devient partenaire du RC Vichy Football"
 image = "https://images.rcvichy.com/news/acm.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1214753108949233/"
 instagram = ""

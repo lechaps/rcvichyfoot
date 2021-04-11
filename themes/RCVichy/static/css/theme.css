@@ -11766,7 +11766,7 @@ q {
   line-height: 22px;
 }
 .list-article .text {
-  height: 115px;
+  /*height: 115px;*/
   overflow: hidden;
   font-size: 15px;
   line-height: 22px;
