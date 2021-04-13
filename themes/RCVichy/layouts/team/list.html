@@ -11,6 +11,12 @@
               <div class="uk-width-3-10 title">{{ .Params.subtitle }}</div>
               <div class="uk-width-7-10 text">{{ .Content }}</div>
             </div>
+            <div class="uk-grid" data-uk-grid-match="">
+              <div class="uk-width-10-10 title"><h4>Durant cette période de crise sanitaire, et dans ce contexte si particulier, 
+                il nous est difficile de réaliser les photos officielles des équipes.
+                Celles-ci seront disponibles rapidement dès de la reprise des entrainements cet été. 
+                Merci d'avance de votre compréhension.</h4></div>
+            </div>
           </div>
          <div style="height: 54px;" >
             <div style="margin: 0px;" class="button-group filter-button-group" >
@@ -33,6 +39,7 @@
                   <div class="titles">
                     <div class="title">{{ .Title}}</div>
                     <div class="sub-title">{{ .Params.subtitle}}</div>
+                    <div class="sub-title">{{ len .Params.photo }}  {{if eq 1 (len .Params.photo) }}photo {{ else }} photos {{ end}}</div>
                   </div>
                 </div>
               </div>
