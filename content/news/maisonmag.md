@@ -1,6 +1,7 @@
 +++
 date = "2021-02-25T00:00:00+05:30"
 title = "Le RC Vichy reçoit le partenaire Maison Mag"
+tags = ["partenaire", "maison mag", "pierre guyot"]
 image = "https://images.rcvichy.com/news/maisonmag.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1190544538036757/"
 instagram = ""

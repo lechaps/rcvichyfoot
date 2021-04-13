@@ -1,6 +1,7 @@
 +++
 date = "2021-04-10T00:00:00+05:30"
 title = "Le RC Vichy s'exporte en Inde"
+tags = ["inde"]
 image = "https://images.rcvichy.com/news/shinoy.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1220068291751048/"
 instagram = ""

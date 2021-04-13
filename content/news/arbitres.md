@@ -1,6 +1,7 @@
 +++
 date = "2021-03-26T00:00:00+05:30"
 title = "Le RC Vichy Football honore ses arbitres"
+tags = ["partenaires", "arbitre", "thierry coutard", "pierre guyot", "zouaoui mestari"]
 image = "https://images.rcvichy.com/news/arbitres.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1210096796081531/"
 instagram = ""

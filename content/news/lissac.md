@@ -1,6 +1,7 @@
 +++
 date = "2021-02-26T00:00:00+05:30"
 title = "Le RC Vichy reçoit le partenaire Lissac"
+tags = ["partenaire", "lissac", "pierre guyot"]
 image = "https://images.rcvichy.com/news/lissac_carte.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1190550071369537/"
 instagram = ""

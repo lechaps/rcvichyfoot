@@ -2,6 +2,7 @@
 date = "2021-01-01T17:30:22+00:00"
 weight = 6
 title = "Fabrice Ulivi"
+tags = ["dirigeant", "fabrice ulivi"]
 role = "Vice-président"
 photo = "https://images.rcvichy.com/manager/fabrice-ulivi.png"
 fblink = "https://www.facebook.com/fabrice.ulivi"

@@ -1,6 +1,7 @@
 +++
 date = "2021-04-11T14:00:00+05:30"
 title = "La feuille de route des éducateurs"
+tags = ["éducateur","thierry coutard", "gérard mosnier"]
 image = "https://images.rcvichy.com/news/educateur.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1220508778373666"
 instagram = ""

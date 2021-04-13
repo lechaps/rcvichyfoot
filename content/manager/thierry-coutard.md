@@ -2,6 +2,7 @@
 date = "2021-01-01T17:30:22+00:00"
 weight = 1
 title = "Thierry Coutard"
+tags = ["dirigeant", "thierry coutard"]
 role = "Co-président"
 photo = "https://images.rcvichy.com/manager/thierry-coutard.png"
 fblink = "https://www.facebook.com/profile.php?id=100062170576450"

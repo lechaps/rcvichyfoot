@@ -1,6 +1,7 @@
 +++
 date = "2021-01-15T00:00:00+05:30"
 title = "Le RC Vichy Football accueil Pierre Lacanette"
+tags = ["éducateur", "pierre lacanette"]
 image = "https://images.rcvichy.com/news/pierrelacanette.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1163612387396639/"
 instagram = ""

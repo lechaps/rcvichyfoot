@@ -1,6 +1,7 @@
 +++
 date = "2021-02-06T00:00:00+05:30"
 title = "Le RC Vichy Football reçoit la visite de Mr. le maire"
+tags = ["mairie", "frédéric aguilera", "jean almazan", "thierry coutard", "pierre guyot"]
 image = "https://images.rcvichy.com/news/maire.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1177422632682281/"
 instagram = ""

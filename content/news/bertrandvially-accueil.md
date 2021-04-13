@@ -1,10 +1,11 @@
 +++
 date = "2021-03-25T00:00:00+05:30"
 title = "Le RC Vichy souhaite la bienvenue à Bertrand Vially"
-image = "https://images.rcvichy.com/news/bertrandvially.jpg"
+tags = ["éducateur","bertrand vially"]
+image = "https://images.rcvichy.com/news/bertrandvially-portrait.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1210092956081915/"
 instagram = ""
-diaporama = ["https://images.rcvichy.com/news/bertrandvially.jpg"]
+diaporama = ["https://images.rcvichy.com/news/bertrandvially-accueil.jpg", "https://images.rcvichy.com/news/bertrandvially-portrait.jpg"]
 +++
 
 **Bertrand Vially**, ancien joueur du Clermont-Foot, professeur d'EPS et éducateur à la section sportive football du Lycée Albert Londres, rejoint le RC Vichy pour prendre en charge la catégorie des U16 en Régionale 1.  

@@ -1,6 +1,7 @@
 +++
 date = "2021-03-27T00:00:00+05:30"
 title = "Le RC Vichy Football accueil Silas"
+tags = ["service civique", "laurent guillaume", "jean-jacques chapuis", "silas"]
 image = "https://images.rcvichy.com/news/service-civique.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1210532859371258/"
 instagram = ""
