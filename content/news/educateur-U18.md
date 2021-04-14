@@ -1,7 +1,7 @@
 +++
 date = "2021-04-12T14:00:00+05:30"
 title = "Les éducateurs U18 de la saison prochaine"
-tags = ["éducateur","florent soudan", "gérald trincal", "romain loubinoux", "richard potier"]
+tags = ["éducateur","florent soudan", "gérald trincal", "romain loubinoux", "richard potier", "u18"]
 image = "https://images.rcvichy.com/news/U18-educateurs.png"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1220508778373666"
 instagram = ""

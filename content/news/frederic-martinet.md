@@ -1,7 +1,7 @@
 +++
 date = "2021-04-09T00:00:00+05:30"
 title = "Le RC Vichy Football renouvelle sa confiance à Frédéric Martinet"
-tags = ["éducateur","frédéric martinet"]
+tags = ["éducateur","frédéric martinet", "u6-u7", "u8-u9"]
 image = "https://images.rcvichy.com/news/frederic-martinet.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.546686295755921/1219997701758107/"
 instagram = ""

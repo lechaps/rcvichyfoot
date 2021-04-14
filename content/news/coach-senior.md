@@ -1,7 +1,7 @@
 +++
 date = "2021-04-11T09:00:00+05:30"
 title = "La nouvelle équipe de coach des équipes séniors"
-tags = ["éducateur","pierre-alexis groisne-pitiot", "mickaël elzeard", "jonathan fève", "axel combe"]
+tags = ["éducateur","pierre-alexis groisne-pitiot", "mickaël elzeard", "jonathan fève", "axel combe", "senior"]
 image = "https://images.rcvichy.com/news/coach-senior.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1220494638375080"
 instagram = ""

@@ -1,7 +1,7 @@
 +++
 date = "2021-03-25T00:00:00+05:30"
 title = "Le RC Vichy souhaite la bienvenue à Bertrand Vially"
-tags = ["éducateur","bertrand vially"]
+tags = ["éducateur","bertrand vially", "u16"]
 image = "https://images.rcvichy.com/news/bertrandvially-portrait.jpg"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1210092956081915/"
 instagram = ""
