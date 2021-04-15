@@ -5,7 +5,7 @@ tags = ["éducateur","florent soudan", "gérald trincal", "romain loubinoux", "r
 image = "https://images.rcvichy.com/news/U18-educateurs.png"
 facebook = "https://www.facebook.com/RCVichyfootball/photos/a.548406402250577/1220508778373666"
 instagram = ""
-diaporama = ["https://images.rcvichy.com/news/U18-florent-soudan.jpg", "https://images.rcvichy.com/news/U18-gerald-trincal.jpg", "https://images.rcvichy.com/news/U18-romain-loubinoux.jpg", "https://images.rcvichy.com/news/U18-richard-potier.jpg"]
+diaporama = ["https://images.rcvichy.com/news/florent-soudan.jpg", "https://images.rcvichy.com/news/gerald-trincal.jpg", "https://images.rcvichy.com/news/romain-loubinoux.jpg", "https://images.rcvichy.com/news/richard-potier.jpg"]
 +++
 
 Voici la présentation de la nouvelle équipe d'éducateurs avec la catégorie U17-U18.  

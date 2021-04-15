@@ -10,11 +10,9 @@
             <div style="margin: 0px;" class="button-group filter-button-group">
               <div class="uk-container uk-container-center">
                 <button class="active" data-filter="*">Tous</button>
-                <button class="" data-filter=".PARTENAIRE">Soirée Partenaire</button>
-                <button class="" data-filter=".DIRIGEANT">Foot animation</button>
                 <button class="" data-filter=".EDUCATEUR">Éducateurs</button>
-                <button class="" data-filter=".ARBITRE">Foot animation</button>
-                <button class="" data-filter=".JOUEUR">Sportif</button>
+                <button class="" data-filter=".ARBITRE">Arbitre</button>
+                <button class="" data-filter=".JOUEUR">Joueur</button>
               </div>
             </div>
           </div>
@@ -29,8 +27,8 @@
                   {{ end }}
                   <div class="titles">
                     <div class="title">{{ .Title}}</div>
+                    <div class="sub-title">{{ .Params.Subtitle}}</div>
                     <div class="sub-title">{{ len .Params.photo }}  {{if eq 1 (len .Params.photo) }}photo {{ else }} photos {{ end}}</div>
-                    <div class="sub-title">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
                   </div>
                 </div>
               </div>
