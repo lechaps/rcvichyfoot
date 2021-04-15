@@ -11,5 +11,5 @@ inlink = "https://www.linkedin.com/in/thierry-coutard-b45b53178/"
 
 Cadre de la fonction publique territoriale en retraite.  
 Ancien entrainer du Clermont-Foot.  
-Technicient diplomé (brevet d'état).  
+Technicien diplomé (brevet d'état).  
 Co-Président en charge du secteur sportif.
