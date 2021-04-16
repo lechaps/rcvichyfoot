@@ -18,7 +18,7 @@
                 Merci d'avance de votre compréhension.</h4></div>
             </div>
           </div>
-         <div style="height: 54px;" >
+          <div style="height: 54px;" >
             <div style="margin: 0px;" class="button-group filter-button-group" >
               <div class="uk-container uk-container-center">
                 <button class="active" data-filter="*">Tous</button>
@@ -34,7 +34,8 @@
                 <div class="gallery-album">
                   {{ range $index, $link := .Params.photo }}
                     <a href="{{ $link | relURL  }}" data-uk-lightbox="{group:'my-group0{{$num}}'}" class="img-{{ $index }}">
-                    <img src="{{ $link | relURL  }}" alt=""></a>
+                      <img src="{{ $link | relURL  }}" alt="">
+                    </a>
                   {{ end }}
                   <div class="titles">
                     <div class="title">{{ .Title}}</div>
