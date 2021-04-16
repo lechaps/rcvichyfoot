@@ -1,0 +1,20 @@
+.donate-wrap { margin: 90px 0 90px 0 !important; position: relative; text-align: center; background: url(../images/donate-bg.jpg); background-size: cover;}
+
+.donate-wrap h3 { padding-bottom: 17px; font-size: 38px; text-transform: uppercase; color:#fff;}
+.donate-wrap h3 span { color: #ffc722;}
+.donate-wrap .intro-text { font-size: 15px; line-height: 22px; color:#fff; font-family: 'Work Sans', sans-serif;}
+.donate-inner { padding: 55px 0 50px 0; position: relative;}
+.donate-inner:before { content: ''; width: 10%; position: absolute; top: 70px; bottom:70px; left: 70px; border: solid #ffc722; border-width: 1px 0 1px 1px;}
+.donate-inner:after { content: ''; width: 10%; position: absolute; top: 70px; bottom:70px; right: 70px; border: solid #ffc722; border-width: 1px 1px 1px 0;}
+
+.donate-btn { padding: 0 50px; background: #ffc722; position: relative; font-family: 'Work Sans', sans-serif; display: inline-block; line-height: 38px; font-size: 12px; font-weight: bold; color:#363533; text-transform: uppercase; transition:400ms all; -webkit-transition:400ms all ; border:none;}
+.donate-btn:hover { text-decoration: none; background: #363533; color:#ffc722;}
+.donate-btn:before {content: ''; position: absolute; top: -3px; right:-3px; bottom:-3px; left:-3px; border: 1px solid #ffc722;}
+.donate-btn span { display: block; position: relative;}
+.donate-btn:hover span { color:#fff;}
+.donate-inner li {
+    margin-top: 10px;
+}
+.donate-inner span {
+    color: #33bfe0;
+}
