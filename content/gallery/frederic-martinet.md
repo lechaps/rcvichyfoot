@@ -4,6 +4,6 @@ title = "Frédéric Martinet"
 subtitle = "Éducateur école de foot"
 photo = ["https://images.rcvichy.com/gallery/educateur/frederic-martinet.jpg"]
 category = "EDUCATEUR"
-weight = 13
+weight = 14
 +++ 
 
