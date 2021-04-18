@@ -38,7 +38,7 @@
           <div class="uk-offcanvas-bar">
             <ul class="uk-nav uk-nav-offcanvas">
               <li {{ if eq .Section "" }}class="uk-parent uk-active"{{ end }}       ><a href="{{ "." | relURL  }}">Accueil</a></li>
-              <li {{ if eq .Section "manager" }}class="uk-parent uk-active"{{ end }}><a href="./manager">Dirigeants</a></li>
+              <li {{ if eq .Section "manager" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./manager" | relURL }}">Dirigeants</a></li>
               <li {{ if eq .Section "team" }}class="uk-parent uk-active"{{ end }}   ><a href="{{ "./team" | relURL  }}">Équipes</a></li>
               <li {{ if eq .Section "partners" }}class="uk-parent uk-active"{{ end }}><a href="{{ "./partners" | relURL  }}">Club Partenaire</a></li>
               <li {{ if eq .Section "news" }}class="uk-parent uk-active"{{ end }}   ><a href="{{ "./news" | relURL  }}">Actualités</a></li>
