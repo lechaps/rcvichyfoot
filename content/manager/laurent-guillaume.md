@@ -10,5 +10,5 @@ inlink = "https://www.linkedin.com/in/laurent-guillaume-a69a9610b/"
 +++
 
 Directeur enfance jeunesse collectivité territoriale.  
-Ancien joueur du RDV.  
+Ancien joueur du RCV.  
 Vice-président en charge des relations sportives et administratives.
