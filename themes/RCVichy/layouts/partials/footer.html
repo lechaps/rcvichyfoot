@@ -30,13 +30,13 @@
                       <div class="footer-wrap">
                           <div class="foot-menu-wrap">
                               <ul class="nav menu">
-                                <li><a href="index.html">Accueil</a></li>
-                                <li><a href="manager.html">Dirigeants</a></li>
-                                <li><a href="team.html">Équipes</a></li>
-                                <li><a href="club-partenaire.html">Club Partenaire</a></li>
-                                <li><a href="news.html">Actualités</a></li>
-                                <li><a href="galery.html">Galerie</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{ "." | relURL  }}">Accueil</a></li>
+                                <li><a href="{{ "./manager" | relURL  }}">Dirigeants</a></li>
+                                <li><a href="{{ "./team" | relURL  }}">Équipes</a></li>
+                                <li><a href="{{ "./partners" | relURL  }}">Club Partenaire</a></li>
+                                <li><a href="{{ "./news" | relURL  }}">Actualités</a></li>
+                                <li><a href="{{ "./gallery" | relURL  }}">Galerie</a></li>
+                                <li><a href="{{ "./contact" | relURL  }}">Contact</a></li>
                               </ul>
                           </div>
                           <div class="copyrights">{{ $.Site.Params.copyright | markdownify}} Tout droit réservés. </a></div>
