@@ -25,12 +25,17 @@
                 <button class="" data-filter=".EDUCATEUR">Éducateurs</button>
                 <button class="" data-filter=".ARBITRE">Arbitre</button>
                 <button class="" data-filter=".JOUEUR">Joueur</button>
+                <button class="" data-filter=".JOUEUSE">Joueuse</button>
               </div>
             </div>
           </div>
           <div class="uk-grid uk-grid-collapse grid" data-uk-grid-match="">
             {{ range $num, $page := .Pages.ByWeight }}
-              <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item {{ .Params.category }} ">
+              <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 grid-item 
+              {{ range $index, $link := .Params.category }}
+                {{ $link }} 
+              {{ end }}
+              ">
                 <div class="gallery-album">
                   {{ range $index, $link := .Params.photo }}
                     <a href="{{ $link | relURL  }}" data-uk-lightbox="{group:'my-group0{{$num}}'}" class="img-{{ $index }}">
