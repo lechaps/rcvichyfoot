@@ -2,7 +2,7 @@
 date = "2021-05-22T00:00:00+05:30"
 title = "Le nouvel équipementier du RC Vichy"
 tags = ["puma", "intersport", "pierre guyot", "thierry coutard"]
-image = "https://images.rcvichy.com/news/intersport-stade.jpeg"
+image = "https://images.rcvichy.com/news/intersport-stade.jpg"
 facebook = "https://www.facebook.com/photo?fbid=1145530615911536&set=a.144545056010102"
 instagram = ""
 diaporama = ["https://images.rcvichy.com/news/intersport-stade.jpg", "https://images.rcvichy.com/news/intersport-signature.jpg", "https://images.rcvichy.com/news/intersport-maillot.jpg"]
