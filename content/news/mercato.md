@@ -5,7 +5,7 @@ tags = ["mercato"]
 image = "https://images.rcvichy.com/news/mercato-groupeR1-6.jpg"
 facebook = ""
 instagram = ""
-diaporama = ["https://images.rcvichy.com/news/mercato-groupeR1-1.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-2.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-3.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-4.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-5.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-6.jpg", "https://images.rcvichy.com/news/mercato-groupeD2.jpg"]
+diaporama = ["https://images.rcvichy.com/news/mercato-groupeR1-1.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-2.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-3.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-4.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-5.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-6.jpg", "https://images.rcvichy.com/news/mercato-groupeR1-7.jpg", "https://images.rcvichy.com/news/mercato-groupeD2.jpg"]
 +++
 
 Voici un point sur le mercato d'été du RC Vichy :
@@ -19,7 +19,9 @@ Boche Charles-Henry (23 ans) - attaquant - parcours : Cournon, Volvic, Moulins-Y
 Dubourdeaux Marceaux - milieu axial - arrivé de Vendat (au RCV entre 2014 et 2020)  
 Gaurel Samuel - gardien - arrivé de Edusport Academy(Ecosse) (au RCV entre 2017 et 2020)  
 Pejoux Pierre (19 ans) - gardien - parcours : Châteauroux, Fleury, Académie Moulins  
-Sellami Rayane - milieu offensif - arrivé de Moulins-Yzeure (au RCV entre 2014 et 2017 et 2018 et 2020)
+Sellami Rayane - milieu offensif - arrivé de Moulins-Yzeure (au RCV entre 2014 et 2017 et 2018 et 2020)  
+Toiliha Hachani - latéral - arrivé de Castelnau Le Cres (au RCV entre 2013 et 2019)  
+Viera Galloh (20 ans) - milieu axial - arrivé de Saint-Germain-des-Fossés (au RCV entre 2016 et 2018)
 
 #### Prolongations
 
