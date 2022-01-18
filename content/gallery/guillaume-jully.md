@@ -4,6 +4,6 @@ title = "Guillaume Jully"
 subtitle = "Éducateur U14 R1"
 photo = ["https://images.rcvichy.com/gallery/educateur/guillaume-jully.jpg"]
 category = ["EDUCATEUR"]
-weight = 11
+weight = 12
 +++ 
 

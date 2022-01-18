@@ -4,6 +4,6 @@ title = "Fabrice Barland"
 subtitle = "Éducateur U12 U13"
 photo = ["https://images.rcvichy.com/gallery/educateur/fabrice-barland.jpg"]
 category = ["EDUCATEUR"]
-weight = 12
+weight = 13
 +++ 
 
