@@ -1,6 +1,6 @@
 +++
 date = "2021-01-01T17:30:22+00:00"
-weight = 8
+weight = 7
 title = "Benjamin Aurat"
 tags = ["dirigeant", "benjamin aurat"]
 role = "Dirigeant"

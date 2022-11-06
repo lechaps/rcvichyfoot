@@ -1,6 +1,6 @@
 +++
 date = "2021-01-01T17:30:22+00:00"
-weight = 4
+weight = 3
 title = "Gérard Mosnier"
 tags = ["dirigeant", "gérard mosnier"]
 role = "Vice-président"

@@ -1,6 +1,6 @@
 +++
 date = "2021-01-01T17:30:22+00:00"
-weight = 2
+weight = 1
 title = "Pierre Guyot"
 tags = ["dirigeant", "pierre guyot"]
 role = "Co-président"

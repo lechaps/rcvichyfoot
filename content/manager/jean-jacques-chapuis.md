@@ -1,6 +1,6 @@
 +++
 date = "2021-01-01T17:30:22+00:00"
-weight = 10
+weight = 9
 title = "Jean-Jacques Chapuis"
 tags = ["dirigeant", "jean-jacques chapuis"]
 role = "Trésorier"
