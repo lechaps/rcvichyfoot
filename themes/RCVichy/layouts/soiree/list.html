@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ partial "top.html" . }}
+  {{ partial "breadcrumb.html" . }}
+
+  <div class="tm-bottom-a-box  ">
+    <div class="uk-container uk-container-center">
+      <section id="tm-bottom-a" class="tm-bottom-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}"
+        data-uk-grid-margin="">
+
+        <div class="uk-width-1-1 uk-row-first">
+          <div class="uk-panel">
+            <div class="about-team-page-top-wrap">
+              <div class="uk-grid">
+                <img src="{{ .Params.image }}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+{{ end }}

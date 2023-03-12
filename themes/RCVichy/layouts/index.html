@@ -12,29 +12,35 @@
               <div class="uk-slidenav-position"
                 data-uk-slideshow="{height: 'auto', animation: 'swipe', duration: '500', autoplay: false, autoplayInterval: '7000', videoautoplay: true, videomute: true, kenburns: false}">
                 <ul class="uk-slideshow uk-overlay-active">
-                  <li aria-hidden="false" class="uk-height-viewport uk-active">
-                    <div style="background-image: url(./images/stadedarragon.jpg);"
-                      class="uk-cover-background uk-position-cover"></div><img
-                      style="width: 100%; height: auto; opacity: 0;" class="uk-invisible"
+                  <!-- Start Promo -->
+                  <li aria-hidden="true" class="uk-height-viewport uk-active">
+                    <div style="background-image: url('https://images.rcvichy.com/soiree/bandeau.jpg');" class="uk-cover-background uk-position-cover"></div>
+                    <img style="width: 100%; height: auto; opacity: 0;" class="uk-invisible" 
+                    src="https://images.rcvichy.com/soiree/bandeau.jpg" alt="">
+                    <div class="uk-position-cover uk-flex-middle">
+                      <div class="uk-container uk-container-center uk-position-cover">
+                        <div class="va-promo-text uk-width-6-10 uk-push-4-10">
+                          <h4><span><a href="./soiree">Réservation en ligne</a></span></h4>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- End Promo -->
+                  <!-- Start ne pas oublier class="uk-height-viewport uk-active" -->
+                  <li aria-hidden="false" class="uk-height-viewport">
+                    <div style="background-image: url(./images/stadedarragon.jpg);" class="uk-cover-background uk-position-cover"></div>
+                      <img style="width: 100%; height: auto; opacity: 0;" class="uk-invisible"
                       src="./images/stadedarragon.jpg" alt="">
                     <div class="uk-position-cover uk-flex-middle">
                       <div class="uk-container uk-container-center uk-position-cover">
                         <div class="va-promo-text uk-width-6-10 uk-push-4-10">
-                          <h3>Saison <span>2022</span>2023</h3>
+                          <h3>Saison <span>2022</span>-2023</h3>
                           <h4>Stade Louis DARRAGON</h4>
                         </div>
                       </div>
                     </div>
                   </li>
-                  <!-- <li aria-hidden="true" class="uk-height-viewport">
-                    <div style="background-image: url('./images/uneautreimage.jpg');" class="uk-cover-background uk-position-cover"></div>
-                    <img style="width: 100%; height: auto; opacity: 0;" class="uk-invisible" src="./images/uneautreimage.jpg" alt="">
-                    <div class="uk-position-cover uk-flex-middle">
-                      <div class="uk-container uk-container-center uk-position-cover">
-                        <div class="va-promo-text uk-width-6-10 uk-push-4-10"></div>
-                      </div>
-                    </div>
-                  </li> -->
+                  <!-- End -->
                 </ul>
                 <a href="/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
                 <a href="/" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
