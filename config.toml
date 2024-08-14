@@ -13,7 +13,7 @@ summaryLength = 5
 [params]
   description = "Le Racing Club Vichy Football est, à l’origine, l’une des sections du club omnisports du Racing club de Vichy. Le 22 mars 1951, le RCV football devient indépendant du RCV omnisports. Son premier président est Pierre Coulon, maire de Vichy. Le RCV football est champion d’Auvergne en 1999 et joue actuellement Régional 1 (6e division)" # meta description
   keywords = "football, vichy, partenaires, foot, régional, jeunes, club"
-  copyright = "&copy; 2022 www.rcvichy.com"
+  copyright = "&copy; 2024 www.rcvichy.com"
 
 # Contact page
     # Since this template is static, the contact form uses www.formspree.io as a
