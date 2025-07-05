@@ -1,9 +1,9 @@
 +++
 date = "2021-01-01T17:30:22+00:00"
-weight = 4
+weight = 1
 title = "Alain Loriolle"
 tags = ["dirigeant", "alain loriolle"]
-role = "Vice-président"
+role = "Président"
 photo = "https://images.rcvichy.com/manager/alain-loriolle.jpg"
 fblink = "https://www.facebook.com/profile.php?id=100013638255337"
 inlink = "https://www.linkedin.com/in/alain-loriolle-09657650/"

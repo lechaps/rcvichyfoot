@@ -1,9 +1,9 @@
 +++
 date = "2021-01-01T17:30:22+00:00"
-weight = 1
+weight = 6
 title = "Pierre Guyot"
 tags = ["dirigeant", "pierre guyot"]
-role = "Co-président"
+role = "Dirigeant"
 photo = "https://images.rcvichy.com/manager/pierre-guyot.jpg"
 fblink = "https://www.facebook.com/pierre.guyot.7161"
 inlink = ""
