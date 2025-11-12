@@ -3,6 +3,9 @@
   <head>
     {{ partial "head.html" . }}
     {{ block "private_head" . }}{{ end }}
+    {{ if .Site.Params.matomo.enable }}
+      {{ partial "matomo.html" . }}
+    {{ end }}
   </head>
 
   <body class="tm-isblog">

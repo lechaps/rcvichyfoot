@@ -36,3 +36,12 @@ contact = "https://formspree.io/f/xknknryw"
   facebook      = "https://fr-fr.facebook.com/RCVichyfootball/"
   twitter       = "https://twitter.com/"
   instagram     = "https://www.instagram.com/"
+
+############################# Analytics ##############################
+[params.matomo]
+enable = true              # Active/désactive globalement
+url = "https://analytics.lechaps.com/"
+siteID = 4
+respectDNT = true          # Respect du Do Not Track
+disableCookies = true      # Matomo sans cookies (utile en dev / RGPD)
+noscript = true            # Pixel <noscript> en fallback
